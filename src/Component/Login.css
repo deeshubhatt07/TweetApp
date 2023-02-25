@@ -2,6 +2,14 @@
 	margin-left:30%;
 	margin-right:30%;
 	margin-top: 5%;
+	background-color: white;
+	padding: 45px;
+	padding-left: 80px;
+	padding-right: 80px;
+	border-radius: 20px;
+}
+.logoElement:hover{
+	cursor: pointer;
 }
 .login{
 	width: 30%;

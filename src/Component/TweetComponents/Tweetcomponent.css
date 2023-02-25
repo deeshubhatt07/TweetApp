@@ -1,0 +1,61 @@
+.post-tweet-box{
+    display:flex;
+    flex-direction: column;
+}
+.submit-post{
+  background-color: rgb(29, 155, 240); /* Twitter blue */
+  color: #fff; /* White text */
+  padding: 7px 12px; /* Add some padding */
+  border-radius: 25px; /* Rounded corners */
+  font-weight: bold;
+  font-size: 1rem;
+  margin-left: auto;
+  margin-top: 5px;
+  width: 15%;
+}
+/*tweeet box css*/
+.tweet-container {
+  display: block;
+  padding: 16px;
+  border-bottom: 1px solid #e6ecf0;
+}
+.tweet-top{
+  display: flex;
+  /* justify-content: space-between; */
+}
+.user-details{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tweet-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+/* .tweet-content {
+  width: 100%;
+} */
+.tweet-username {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.tweet-handle {
+  color: #657786;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.tweet-timestamp {
+  color: #657786;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.tweet-text {
+  color: #14171a;
+  font-size: 16px;
+}
+.messageBox {
+  border: solid lightblue 3px;
+  border-radius: 12px;
+}

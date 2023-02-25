@@ -4,15 +4,19 @@ import Home from './Views/Home';
 import About from './Views/About';
 import Contact from './Views/Contact';
 import { Tweets } from './Views/Tweets';
+import LoginPage from './Component/Login';
+import Register from './Component/Register';
 
 const App = () => {
   return(
     <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />}></Route>
-          <Route path='/about' element={<About />}></Route>
-          <Route path='/contact' element={<Contact />}></Route>
-          <Route path='/tweets' element={<Tweets />}></Route>
+          <Route path='/' element={<Home />}/>
+          <Route path='/about' element={<About />}/>
+          <Route path='/contact' element={<Contact />}/>
+          <Route path='/tweets' element={<Tweets />}/>
+          <Route path="/" element={<LoginPage />}/>
+          <Route path="/register" element={<Register />}/>
         </Routes>
     </BrowserRouter>
   );
